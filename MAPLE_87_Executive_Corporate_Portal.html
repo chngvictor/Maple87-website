@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAPLE 87 | Regional Construction & Civil Engineering Group</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter & Playfair Display / Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: {
+                            400: '#E6C665',
+                            500: '#D4AF37',
+                            600: '#AA820A',
+                            700: '#856404',
+                            glow: 'rgba(212, 175, 55, 0.25)'
+                        },
+                        dark: {
+                            900: '#0A0B0D',
+                            800: '#121418',
+                            700: '#1A1D24',
+                            600: '#252932',
+                            500: '#343B48'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Cinzel', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0A0B0D;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #252932;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #D4AF37;
+        }
+        
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #FFF099 0%, #D4AF37 50%, #997A15 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .gold-border-glow {
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.1);
+            transition: all 0.3s ease;
+        }
+        .gold-border-glow:hover {
+            border-color: rgba(212, 175, 55, 0.8);
+            box-shadow: 0 0 25px rgba(212, 175, 55, 0.25);
+        }
+
+        .bg-gold-gradient {
+            background: linear-gradient(135deg, #D4AF37 0%, #AA820A 100%);
+        }
+
+        .hero-pattern {
+            background-color: #0A0B0D;
+            background-image: radial-gradient(rgba(212, 175, 55, 0.12) 1px, transparent 1px);
+            background-size: 32px 32px;
+        }
+    </style>
+</head>
+<body class="bg-dark-900 text-slate-200 font-sans antialiased selection:bg-gold-500 selection:text-dark-900">
+
+    <!-- TOP LEGAL ENTITY NOTIFICATION BAR -->
+    <div class="bg-dark-800 border-b border-dark-600/60 py-2 px-4 text-xs">
+        <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+            <div class="flex items-center space-x-4">
+                <span class="flex items-center text-slate-400">
+                    <span class="inline-block w-2 h-2 rounded-full bg-emerald-500 mr-2"></span>
+                    Singapore Unit: <strong class="text-slate-200 ml-1">MAPLE87 PTE. LTD.</strong> (UEN 201005030D)
+                </span>
+                <span class="hidden md:inline text-dark-500">|</span>
+                <span class="flex items-center text-slate-400">
+                    <span class="inline-block w-2 h-2 rounded-full bg-blue-500 mr-2"></span>
+                    Malaysia Unit: <strong class="text-slate-200 ml-1">MAPLE87 BUILDERS SDN. BHD.</strong> (SSM 201601022871)
+                </span>
+            </div>
+            <div class="flex items-center space-x-6 text-slate-400">
+                <a href="mailto:info@maple87.asia" class="hover:text-gold-400 transition-colors"><i class="fa-regular fa-envelope mr-1.5 text-gold-500"></i>info@maple87.asia</a>
+                <span class="text-gold-500 font-semibold"><i class="fa-solid fa-globe mr-1"></i>www.maple87.asia</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN HEADER & NAVIGATION -->
+    <header class="sticky top-0 z-40 bg-dark-900/90 backdrop-blur-md border-b border-gold-500/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="#home" class="flex items-center space-x-3 group">
+                    <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-dark-700 to-dark-800 border border-gold-500/50 flex items-center justify-center shadow-lg shadow-gold-500/10 group-hover:border-gold-400 transition-all">
+                        <svg class="w-8 h-8 text-gold-500" viewBox="0 0 100 100" fill="currentColor">
+                            <rect x="15" y="30" width="10" height="50" rx="1"/>
+                            <rect x="30" y="20" width="10" height="60" rx="1"/>
+                            <rect x="45" y="35" width="10" height="45" rx="1"/>
+                            <rect x="60" y="15" width="10" height="65" rx="1"/>
+                            <rect x="75" y="10" width="10" height="70" rx="1"/>
+                            <path d="M 5 82 Q 50 68 95 82" stroke="currentColor" stroke-width="6" fill="none" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-serif text-2xl font-extrabold tracking-wider gold-gradient-text">MAPLE 87</span>
+                        <span class="text-[9px] uppercase tracking-widest text-slate-400 -mt-1 font-semibold">Singapore • Malaysia</span>
+                    </div>
+                </a>
+
+                <nav class="hidden lg:flex items-center space-x-8 text-sm font-medium">
+                    <a href="#about" class="text-slate-300 hover:text-gold-400 transition-colors">About Us</a>
+                    <a href="#capabilities" class="text-slate-300 hover:text-gold-400 transition-colors">Capabilities</a>
+                    <a href="#portfolio" class="text-slate-300 hover:text-gold-400 transition-colors">Portfolio</a>
+                    <a href="#materials" class="text-slate-300 hover:text-gold-400 transition-colors">Sand & Materials</a>
+                    <a href="#machinery" class="text-slate-300 hover:text-gold-400 transition-colors">Plant & Fleet</a>
+                    <a href="#credentials" class="text-slate-300 hover:text-gold-400 transition-colors">Credentials</a>
+                </nav>
+
+                <div class="hidden sm:flex items-center space-x-4">
+                    <a href="#contact" class="px-5 py-2.5 rounded-md text-sm font-semibold bg-gold-gradient text-dark-900 hover:opacity-95 shadow-md shadow-gold-500/20 transition-all flex items-center">
+                        <i class="fa-solid fa-file-contract mr-2"></i> Project Enquiry
+                    </a>
+                </div>
+
+                <div class="flex lg:hidden">
+                    <button id="mobile-menu-btn" class="p-2 text-slate-400 hover:text-gold-400 focus:outline-none">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden lg:hidden bg-dark-800 border-b border-dark-600 px-4 pt-2 pb-6 space-y-3">
+            <a href="#about" class="block text-slate-300 hover:text-gold-400 py-1">About Us</a>
+            <a href="#capabilities" class="block text-slate-300 hover:text-gold-400 py-1">Capabilities</a>
+            <a href="#portfolio" class="block text-slate-300 hover:text-gold-400 py-1">Portfolio</a>
+            <a href="#materials" class="block text-slate-300 hover:text-gold-400 py-1">Sand & Materials</a>
+            <a href="#machinery" class="block text-slate-300 hover:text-gold-400 py-1">Plant & Fleet</a>
+            <a href="#credentials" class="block text-slate-300 hover:text-gold-400 py-1">Credentials</a>
+            <a href="#contact" class="block text-center py-2.5 rounded-md text-sm font-semibold bg-gold-gradient text-dark-900">Project Enquiry</a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="relative min-h-[90vh] flex items-center hero-pattern overflow-hidden border-b border-dark-700">
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-96 h-96 bg-gold-500/10 rounded-full filter blur-[120px] pointer-events-none"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10 w-full">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-7 space-y-8">
+                    <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-400 text-xs font-semibold uppercase tracking-wider">
+                        <i class="fa-solid fa-shield-halved text-gold-500"></i>
+                        <span>BCA Class 1 Builder & CIDB G7 Group</span>
+                    </div>
+
+                    <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
+                        Engineering Precision Across <span class="gold-gradient-text">Singapore & Malaysia</span>
+                    </h1>
+
+                    <p class="text-slate-300 text-lg leading-relaxed max-w-2xl">
+                        MAPLE 87 delivers main contracting, civil engineering, specialist structural steelwork, architectural finishes, and direct construction material supply with established operational footprints across both nations.
+                    </p>
+
+                    <div class="flex flex-wrap gap-4 pt-2">
+                        <a href="#portfolio" class="px-7 py-3.5 rounded-md font-semibold text-dark-900 bg-gold-gradient hover:brightness-110 transition-all shadow-lg shadow-gold-500/20 flex items-center">
+                            <span>Explore Project Portfolio</span>
+                            <i class="fa-solid fa-arrow-right ml-2 text-sm"></i>
+                        </a>
+                        <a href="#contact" class="px-7 py-3.5 rounded-md font-semibold text-slate-200 bg-dark-700 border border-dark-500 hover:border-gold-500/60 hover:text-white transition-all flex items-center">
+                            <i class="fa-solid fa-building-user mr-2 text-gold-500"></i>
+                            <span>Contact Engineering Team</span>
+                        </a>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-6 border-t border-dark-700/80">
+                        <div class="p-3.5 rounded-lg bg-dark-800/80 border border-dark-600">
+                            <div class="text-xs text-slate-400 font-medium uppercase">Singapore Entity</div>
+                            <div class="text-sm font-bold text-slate-100 mt-0.5">Maple87 Pte. Ltd.</div>
+                            <div class="text-xs text-gold-400/90 font-mono mt-1">UEN: 201005030D • Est. 2010</div>
+                        </div>
+                        <div class="p-3.5 rounded-lg bg-dark-800/80 border border-dark-600">
+                            <div class="text-xs text-slate-400 font-medium uppercase">Malaysia Entity</div>
+                            <div class="text-sm font-bold text-slate-100 mt-0.5">Maple87 Builders Sdn. Bhd.</div>
+                            <div class="text-xs text-gold-400/90 font-mono mt-1">SSM: 1193810-A • Inc. 2016</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-5">
+                    <div class="relative p-6 sm:p-8 rounded-2xl bg-dark-800/90 border border-gold-500/30 backdrop-blur-xl shadow-2xl">
+                        <div class="absolute -top-3 -right-3 px-3 py-1 rounded bg-gold-500 text-dark-900 text-xs font-bold uppercase tracking-wider">
+                            Verified Capabilities
+                        </div>
+
+                        <h3 class="font-serif text-xl font-bold text-white mb-6 border-b border-dark-600 pb-4 flex items-center">
+                            <i class="fa-solid fa-chart-line text-gold-500 mr-2.5"></i> Operational Highlights
+                        </h3>
+
+                        <div class="space-y-6">
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 rounded-lg bg-gold-500/10 border border-gold-500/30 flex items-center justify-center flex-shrink-0 text-gold-400 text-xl">
+                                    <i class="fa-solid fa-hospital font-bold"></i>
+                                </div>
+                                <div>
+                                    <div class="text-2xl font-bold text-white">S$10.0 Million</div>
+                                    <div class="text-xs text-slate-400 uppercase tracking-wide">Woodlands Health Campus Specialist Package</div>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 rounded-lg bg-gold-500/10 border border-gold-500/30 flex items-center justify-center flex-shrink-0 text-gold-400 text-xl">
+                                    <i class="fa-solid fa-house-chimney"></i>
+                                </div>
+                                <div>
+                                    <div class="text-2xl font-bold text-white">1,000+ Units</div>
+                                    <div class="text-xs text-slate-400 uppercase tracking-wide">PR1MA Housing Total Subcontract Delivery</div>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 rounded-lg bg-gold-500/10 border border-gold-500/30 flex items-center justify-center flex-shrink-0 text-gold-400 text-xl">
+                                    <i class="fa-solid fa-truck-monster"></i>
+                                </div>
+                                <div>
+                                    <div class="text-2xl font-bold text-white">45+ Heavy Units</div>
+                                    <div class="text-xs text-slate-400 uppercase tracking-wide">Excavators, Lorries & Sand Pumps Fleet</div>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 rounded-lg bg-gold-500/10 border border-gold-500/30 flex items-center justify-center flex-shrink-0 text-gold-400 text-xl">
+                                    <i class="fa-solid fa-microchip"></i>
+                                </div>
+                                <div>
+                                    <div class="text-2xl font-bold text-white">200+ Steel Sets</div>
+                                    <div class="text-xs text-slate-400 uppercase tracking-wide">Facebook Data Centre Access Flooring & Platforms</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-8 pt-4 border-t border-dark-600/80 flex items-center justify-between text-xs text-slate-400">
+                            <span><i class="fa-solid fa-circle-check text-emerald-400 mr-1"></i> Regional Compliance</span>
+                            <span>Singapore & Malaysia</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- KEY STATS COUNTER BAR -->
+    <section class="bg-dark-800 border-b border-dark-700 py-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-dark-600/60">
+                <div class="p-2">
+                    <div class="text-3xl sm:text-4xl font-extrabold text-white font-serif">15+ Years</div>
+                    <div class="text-xs font-medium text-gold-400 uppercase tracking-wider mt-1">Regional Track Record</div>
+                </div>
+                <div class="p-2">
+                    <div class="text-3xl sm:text-4xl font-extrabold text-white font-serif">S$20M+</div>
+                    <div class="text-xs font-medium text-gold-400 uppercase tracking-wider mt-1">Single Main Contract Scope</div>
+                </div>
+                <div class="p-2">
+                    <div class="text-3xl sm:text-4xl font-extrabold text-white font-serif">CIDB G7</div>
+                    <div class="text-xs font-medium text-gold-400 uppercase tracking-wider mt-1">Highest Malaysia Registration</div>
+                </div>
+                <div class="p-2">
+                    <div class="text-3xl sm:text-4xl font-extrabold text-white font-serif">BCA Class 1</div>
+                    <div class="text-xs font-medium text-gold-400 uppercase tracking-wider mt-1">General Builder Singapore</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-24 bg-dark-900 border-b border-dark-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-gold-400 mb-2">Corporate Profile</h2>
+                <h3 class="font-serif text-3xl sm:text-4xl font-extrabold text-white">Dual-Entity Synergy & Regional Delivery</h3>
+                <div class="w-20 h-1 bg-gold-gradient mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <p class="text-slate-300 leading-relaxed">
+                        <strong class="text-gold-400">MAPLE 87</strong> is the shared brand presenting the combined construction capabilities, civil engineering expertise, and project execution track record of two incorporated entities operating seamlessly across Singapore and Malaysia.
+                    </p>
+                    <p class="text-slate-300 leading-relaxed">
+                        Established in Singapore in 2010 with <strong>Maple87 Pte. Ltd.</strong> and expanded into Malaysia in 2016 through <strong>Maple87 Builders Sdn. Bhd.</strong>, the group handles projects ranging from major public housing precast installations to high-specification institutional healthcare facilities, data centers, and multi-unit landed housing developments.
+                    </p>
+                    
+                    <div class="grid sm:grid-cols-2 gap-4 pt-4">
+                        <div class="p-4 rounded-lg bg-dark-800 border border-dark-700">
+                            <div class="w-10 h-10 rounded bg-gold-500/10 flex items-center justify-center text-gold-400 mb-3">
+                                <i class="fa-solid fa-city"></i>
+                            </div>
+                            <h4 class="font-bold text-white text-base">Integrated Main Contracting</h4>
+                            <p class="text-xs text-slate-400 mt-1">Full turnkey management of residential, industrial, and commercial builds.</p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-dark-800 border border-dark-700">
+                            <div class="w-10 h-10 rounded bg-gold-500/10 flex items-center justify-center text-gold-400 mb-3">
+                                <i class="fa-solid fa-cubes-stacked"></i>
+                            </div>
+                            <h4 class="font-bold text-white text-base">Material Supply Chain</h4>
+                            <p class="text-xs text-slate-400 mt-1">Direct ownership of Malaysian sand extraction and processing logistics.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-8 rounded-2xl bg-dark-800 border border-gold-500/20 relative">
+                    <div class="text-center mb-6">
+                        <span class="text-xs font-bold text-gold-400 uppercase tracking-widest">Unified Group Framework</span>
+                        <h4 class="font-serif text-2xl font-bold text-white mt-1">MAPLE 87 BRAND</h4>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-6 relative">
+                        <div class="p-5 rounded-xl bg-dark-900 border border-dark-600 hover:border-gold-500/40 transition-all">
+                            <div class="flex items-center space-x-2 text-emerald-400 text-xs font-bold mb-2">
+                                <i class="fa-solid fa-flag"></i>
+                                <span>SINGAPORE ENTITY</span>
+                            </div>
+                            <h5 class="font-bold text-white text-lg">Maple87 Pte. Ltd.</h5>
+                            <ul class="mt-3 space-y-1.5 text-xs text-slate-300 font-mono">
+                                <li>• UEN: 201005030D</li>
+                                <li>• Est: 2010 (Singapore)</li>
+                                <li>• BCA Builder Class 1</li>
+                                <li>• Specialist Steelwork</li>
+                                <li>• bizSAFE Level 3</li>
+                            </ul>
+                        </div>
+
+                        <div class="p-5 rounded-xl bg-dark-900 border border-dark-600 hover:border-gold-500/40 transition-all">
+                            <div class="flex items-center space-x-2 text-blue-400 text-xs font-bold mb-2">
+                                <i class="fa-solid fa-flag"></i>
+                                <span>MALAYSIA ENTITY</span>
+                            </div>
+                            <h5 class="font-bold text-white text-lg">Maple87 Builders Sdn. Bhd.</h5>
+                            <ul class="mt-3 space-y-1.5 text-xs text-slate-300 font-mono">
+                                <li>• SSM: 201601022871</li>
+                                <li>• Inc: 2016 (Malaysia)</li>
+                                <li>• CIDB Grade G7 Status</li>
+                                <li>• Landed Developments</li>
+                                <li>• Sand Mining Operations</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 p-4 rounded-lg bg-gold-500/5 border border-gold-500/20 text-center text-xs text-slate-300">
+                        <i class="fa-solid fa-shield-cat text-gold-400 mr-2"></i> Standardized Quality, Safety & Environmental Protocols Implemented Across All Operating Hubs.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CAPABILITIES SECTION -->
+    <section id="capabilities" class="py-24 bg-dark-800 border-b border-dark-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-gold-400 mb-2">Technical Excellence</h2>
+                <h3 class="font-serif text-3xl sm:text-4xl font-extrabold text-white">Our Construction Capabilities</h3>
+                <p class="text-slate-400 text-sm mt-3">From groundwork and structural steel fabrication to precast installation and complete project handover.</p>
+                <div class="w-20 h-1 bg-gold-gradient mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="gold-border-glow p-8 rounded-xl bg-dark-900 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-gold-500/10 border border-gold-500/30 flex items-center justify-center text-gold-400 text-2xl mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-trowel-bricks"></i>
+                        </div>
+                        <h4 class="font-serif text-xl font-bold text-white mb-3">Building & Civil Engineering</h4>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            Substructure, reinforced concrete (RC) frames, deep foundations, structural precast installations, cast-in-situ elements, and comprehensive groundwork coordination.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-dark-700 text-xs font-mono text-gold-400">
+                        Ref: HDB Precast • D'Leedon • Tuas LNG
+                    </div>
+                </div>
+
+                <div class="gold-border-glow p-8 rounded-xl bg-dark-900 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-gold-500/10 border border-gold-500/30 flex items-center justify-center text-gold-400 text-2xl mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-layer-group"></i>
+                        </div>
+                        <h4 class="font-serif text-xl font-bold text-white mb-3">Specialist Metalwork & Steel</h4>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            Fabrication and erection of heavy structural steel, galvanised access platforms, heavy-duty steel grating, access flooring, and high-specification industrial metalwork.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-dark-700 text-xs font-mono text-gold-400">
+                        Ref: Facebook Data Centre • WHC Package
+                    </div>
+                </div>
+
+                <div class="gold-border-glow p-8 rounded-xl bg-dark-900 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-gold-500/10 border border-gold-500/30 flex items-center justify-center text-gold-400 text-2xl mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-paint-roller"></i>
+                        </div>
+                        <h4 class="font-serif text-xl font-bold text-white mb-3">Architectural & Reinstatement</h4>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            Wet works, high-tolerance plastering, waterproofing systems, full commercial/industrial reinstatement to SLA & JTC authority handover standards.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-dark-700 text-xs font-mono text-gold-400">
+                        Ref: SLA 300 Bukit Ho Swee • JTC Redhill
+                    </div>
+                </div>
+
+                <div class="gold-border-glow p-8 rounded-xl bg-dark-900 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-gold-500/10 border border-gold-500/30 flex items-center justify-center text-gold-400 text-2xl mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-diagram-project"></i>
+                        </div>
+                        <h4 class="font-serif text-xl font-bold text-white mb-3">Project & Subcontract Management</h4>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            End-to-end program scheduling, subcontractor integration, site logistics, safety inspections, material procurement tracking, and client compliance.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-dark-700 text-xs font-mono text-gold-400">
+                        Ref: PR1MA Housing • Treasures 20 & 6
+                    </div>
+                </div>
+
+                <div class="gold-border-glow p-8 rounded-xl bg-dark-900 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-gold-500/10 border border-gold-500/30 flex items-center justify-center text-gold-400 text-2xl mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-mountain-sun"></i>
+                        </div>
+                        <h4 class="font-serif text-xl font-bold text-white mb-3">Sand Extraction & Supply</h4>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            Malaysian construction sand mining, screening, washing, stockpile management, and direct logistics dispatch utilizing owned pump & haulage fleets.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-dark-700 text-xs font-mono text-gold-400">
+                        Ref: Malaysia Operations Fleet
+                    </div>
+                </div>
+
+                <div class="gold-border-glow p-8 rounded-xl bg-dark-900 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-gold-500/10 border border-gold-500/30 flex items-center justify-center text-gold-400 text-2xl mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-truck-ramp-box"></i>
+                        </div>
+                        <h4 class="font-serif text-xl font-bold text-white mb-3">Heavy Plant & Logistics Fleet</h4>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            Direct deployment of 20+ heavy excavators, tipper lorries, sand pumps, compactors, and bulldozers for earthworks and civil site formation.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-dark-700 text-xs font-mono text-gold-400">
+                        Ref: In-house Machinery Inventory
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio" class="py-24 bg-dark-900 border-b border-dark-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                <div>
+                    <h2 class="text-xs font-bold uppercase tracking-widest text-gold-400 mb-2">Track Record</h2>
+                    <h3 class="font-serif text-3xl sm:text-4xl font-extrabold text-white">Featured Project Portfolio</h3>
+                    <p class="text-slate-400 text-sm mt-2">Verified references executed across Singapore and Malaysia.</p>
+                </div>
+
+                <div class="flex flex-wrap gap-2 mt-6 md:mt-0" id="portfolio-filters">
+                    <button class="filter-btn active px-4 py-2 rounded-md text-xs font-semibold bg-gold-500 text-dark-900 shadow-md transition-all" data-filter="all">All Projects</button>
+                    <button class="filter-btn px-4 py-2 rounded-md text-xs font-semibold bg-dark-800 text-slate-300 border border-dark-600 hover:border-gold-500/50 transition-all" data-filter="singapore">Singapore</button>
+                    <button class="filter-btn px-4 py-2 rounded-md text-xs font-semibold bg-dark-800 text-slate-300 border border-dark-600 hover:border-gold-500/50 transition-all" data-filter="malaysia">Malaysia</button>
+                    <button class="filter-btn px-4 py-2 rounded-md text-xs font-semibold bg-dark-800 text-slate-300 border border-dark-600 hover:border-gold-500/50 transition-all" data-filter="metalwork">Metalwork & Steel</button>
+                    <button class="filter-btn px-4 py-2 rounded-md text-xs font-semibold bg-dark-800 text-slate-300 border border-dark-600 hover:border-gold-500/50 transition-all" data-filter="residential">Residential</button>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="project-card singapore metalwork p-6 rounded-xl bg-dark-800 border border-dark-700 hover:border-gold-500/40 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between text-xs mb-3">
+                            <span class="px-2.5 py-1 rounded bg-emerald-500/10 text-emerald-400 font-semibold border border-emerald-500/20">Singapore</span>
+                            <span class="text-gold-400 font-mono font-bold">~S$10.0 Million</span>
+                        </div>
+                        <h4 class="font-serif text-xl font-bold text-white mb-2">Woodlands Health Campus</h4>
+                        <p class="text-xs text-gold-400/90 font-medium mb-3">Contract Ref: MOH 46/2016 • Healthcare</p>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            Executed specialist metalworks and architectural wet works for acute hospital, specialist outpatient clinics, and community facilities.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-dark-700 flex justify-between items-center text-xs text-slate-400">
+                        <span>Role: Specialist Package Contractor</span>
+                        <button onclick="openModal('whc')" class="text-gold-400 hover:underline font-semibold">View Details <i class="fa-solid fa-angle-right ml-1"></i></button>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card singapore metalwork p-6 rounded-xl bg-dark-800 border border-dark-700 hover:border-gold-500/40 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between text-xs mb-3">
+                            <span class="px-2.5 py-1 rounded bg-emerald-500/10 text-emerald-400 font-semibold border border-emerald-500/20">Singapore</span>
+                            <span class="text-gold-400 font-mono font-bold">~200 Platform Sets</span>
+                        </div>
+                        <h4 class="font-serif text-xl font-bold text-white mb-2">Facebook Data Centre</h4>
+                        <p class="text-xs text-gold-400/90 font-medium mb-3">Industrial High-Tech Infrastructure</p>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            Fabrication and installation of heavy-duty galvanised steel access flooring and elevated maintenance platforms above M&E service routes.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-dark-700 flex justify-between items-center text-xs text-slate-400">
+                        <span>Role: Specialist Metalwork Contractor</span>
+                        <button onclick="openModal('facebook')" class="text-gold-400 hover:underline font-semibold">View Details <i class="fa-solid fa-angle-right ml-1"></i></button>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card singapore residential p-6 rounded-xl bg-dark-800 border border-dark-700 hover:border-gold-500/40 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between text-xs mb-3">
+                            <span class="px-2.5 py-1 rounded bg-emerald-500/10 text-emerald-400 font-semibold border border-emerald-500/20">Singapore</span>
+                            <span class="text-gold-400 font-mono font-bold">1,715 Units</span>
+                        </div>
+                        <h4 class="font-serif text-xl font-bold text-white mb-2">d'Leedon Farrer Road</h4>
+                        <p class="text-xs text-gold-400/90 font-medium mb-3">Architect: Zaha Hadid Architects</p>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            Structural construction works package coordination across seven 36-storey residential towers and 12 garden villas for Morganite Pte Ltd.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-dark-700 flex justify-between items-center text-xs text-slate-400">
+                        <span>Role: Structural Subcontractor</span>
+                        <button onclick="openModal('dleedon')" class="text-gold-400 hover:underline font-semibold">View Details <i class="fa-solid fa-angle-right ml-1"></i></button>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card singapore residential p-6 rounded-xl bg-dark-800 border border-dark-700 hover:border-gold-500/40 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between text-xs mb-3">
+                            <span class="px-2.5 py-1 rounded bg-emerald-500/10 text-emerald-400 font-semibold border border-emerald-500/20">Singapore</span>
+                            <span class="text-gold-400 font-mono font-bold">S$20.0 Million</span>
+                        </div>
+                        <h4 class="font-serif text-xl font-bold text-white mb-2">Treasures 20 & Treasures 6</h4>
+                        <p class="text-xs text-gold-400/90 font-medium mb-3">Geylang Lorong 20 & 6 Condominiums</p>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            Main Contractor delivery of two 8-storey luxury residential buildings featuring mechanical carparking and rooftop swimming pools.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-dark-700 flex justify-between items-center text-xs text-slate-400">
+                        <span>Role: Main Contractor</span>
+                        <button onclick="openModal('treasures')" class="text-gold-400 hover:underline font-semibold">View Details <i class="fa-solid fa-angle-right ml-1"></i></button>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card malaysia residential p-6 rounded-xl bg-dark-800 border border-dark-700 hover:border-gold-500/40 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between text-xs mb-3">
+                            <span class="px-2.5 py-1 rounded bg-blue-500/10 text-blue-400 font-semibold border border-blue-500/20">Malaysia</span>
+                            <span class="text-gold-400 font-mono font-bold">1,013 Units</span>
+                        </div>
+                        <h4 class="font-serif text-xl font-bold text-white mb-2">PR1MA Housing Rantau</h4>
+                        <p class="text-xs text-gold-400/90 font-medium mb-3">Negeri Sembilan Development</p>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            Total Subcontractor execution of 1,013 double-storey residential houses including plastering, waterproofing, wet works, and services.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-dark-700 flex justify-between items-center text-xs text-slate-400">
+                        <span>Role: Total Subcontractor</span>
+                        <button onclick="openModal('prima')" class="text-gold-400 hover:underline font-semibold">View Details <i class="fa-solid fa-angle-right ml-1"></i></button>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card malaysia residential p-6 rounded-xl bg-dark-800 border border-dark-700 hover:border-gold-500/40 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between text-xs mb-3">
+                            <span class="px-2.5 py-1 rounded bg-blue-500/10 text-blue-400 font-semibold border border-blue-500/20">Malaysia</span>
+                            <span class="text-gold-400 font-mono font-bold">RM48.5 Million</span>
+                        </div>
+                        <h4 class="font-serif text-xl font-bold text-white mb-2">Taman Sijangkang Jaya</h4>
+                        <p class="text-xs text-gold-400/90 font-medium mb-3">PKNS Resettlement Project • Selangor</p>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            Construction of 2-storey terrace houses and site infrastructure for residents of Darul Mujahidin under government agency PKNS.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-dark-700 flex justify-between items-center text-xs text-slate-400">
+                        <span>Role: Main Subcontractor</span>
+                        <button onclick="openModal('sijangkang')" class="text-gold-400 hover:underline font-semibold">View Details <i class="fa-solid fa-angle-right ml-1"></i></button>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="project-card malaysia residential p-6 rounded-xl bg-dark-800 border border-dark-700 hover:border-gold-500/40 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between text-xs mb-3">
+                            <span class="px-2.5 py-1 rounded bg-blue-500/10 text-blue-400 font-semibold border border-blue-500/20">Malaysia</span>
+                            <span class="text-gold-400 font-mono font-bold">RM96.0 Million</span>
+                        </div>
+                        <h4 class="font-serif text-xl font-bold text-white mb-2">Lanchang Housing Pahang</h4>
+                        <p class="text-xs text-gold-400/90 font-medium mb-3">Rumah Malaysia Housing Program</p>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            350 single-storey terrace houses with complete infrastructure, roads, drainage, and structural pre-cast framing works.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-dark-700 flex justify-between items-center text-xs text-slate-400">
+                        <span>Role: Total Subcontractor</span>
+                        <button onclick="openModal('lanchang')" class="text-gold-400 hover:underline font-semibold">View Details <i class="fa-solid fa-angle-right ml-1"></i></button>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="project-card singapore p-6 rounded-xl bg-dark-800 border border-dark-700 hover:border-gold-500/40 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between text-xs mb-3">
+                            <span class="px-2.5 py-1 rounded bg-emerald-500/10 text-emerald-400 font-semibold border border-emerald-500/20">Singapore</span>
+                            <span class="text-gold-400 font-mono font-bold">30,000 sq ft Total</span>
+                        </div>
+                        <h4 class="font-serif text-xl font-bold text-white mb-2">SLA & JTC Reinstatements</h4>
+                        <p class="text-xs text-gold-400/90 font-medium mb-3">300 Bukit Ho Swee & Redhill Estate</p>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            Turnkey building strip-out, architectural reinstatement, and formal handover to Singapore Land Authority and JTC Corporation.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-dark-700 flex justify-between items-center text-xs text-slate-400">
+                        <span>Role: Reinstatement Contractor</span>
+                        <button onclick="openModal('reinstatement')" class="text-gold-400 hover:underline font-semibold">View Details <i class="fa-solid fa-angle-right ml-1"></i></button>
+                    </div>
+                </div>
+
+                <!-- Project 9 -->
+                <div class="project-card singapore p-6 rounded-xl bg-dark-800 border border-dark-700 hover:border-gold-500/40 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between text-xs mb-3">
+                            <span class="px-2.5 py-1 rounded bg-emerald-500/10 text-emerald-400 font-semibold border border-emerald-500/20">Singapore</span>
+                            <span class="text-gold-400 font-mono font-bold">S$4.5 Million</span>
+                        </div>
+                        <h4 class="font-serif text-xl font-bold text-white mb-2">Tuas LNG Offtake Station</h4>
+                        <p class="text-xs text-gold-400/90 font-medium mb-3">SP Power Group • Energy Infrastructure</p>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            Foundation construction and heavy structural works package for industrial energy infrastructure located at Tuas South.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-dark-700 flex justify-between items-center text-xs text-slate-400">
+                        <span>Role: Foundation Subcontractor</span>
+                        <button onclick="openModal('lng')" class="text-gold-400 hover:underline font-semibold">View Details <i class="fa-solid fa-angle-right ml-1"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MATERIALS & SAND MINING OPERATIONS -->
+    <section id="materials" class="py-24 bg-dark-800 border-b border-dark-700 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-6 space-y-6">
+                    <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-400 text-xs font-semibold uppercase tracking-wider">
+                        <i class="fa-solid fa-trowel"></i>
+                        <span>Direct Resource Vertical Integration</span>
+                    </div>
+
+                    <h2 class="font-serif text-3xl sm:text-4xl font-extrabold text-white leading-tight">
+                        Malaysian Sand Mining, Processing & Supply Operations
+                    </h2>
+
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        To secure supply chain resilience and material quality for civil engineering projects, MAPLE 87 operates direct sand extraction, screening, and stockpiling facilities in Malaysia.
+                    </p>
+
+                    <div class="space-y-4 pt-2">
+                        <div class="flex items-start space-x-3">
+                            <div class="w-6 h-6 rounded-full bg-gold-500/20 text-gold-400 flex items-center justify-center flex-shrink-0 text-xs mt-0.5">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-bold text-white">Extraction & Recovery</h4>
+                                <p class="text-xs text-slate-400">High-capacity sand pump barges, dredgers, and excavators for raw material recovery.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-3">
+                            <div class="w-6 h-6 rounded-full bg-gold-500/20 text-gold-400 flex items-center justify-center flex-shrink-0 text-xs mt-0.5">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-bold text-white">Screening & Washing</h4>
+                                <p class="text-xs text-slate-400">Processing to specific construction-grade grain standards for concrete and plastering.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-3">
+                            <div class="w-6 h-6 rounded-full bg-gold-500/20 text-gold-400 flex items-center justify-center flex-shrink-0 text-xs mt-0.5">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-bold text-white">Direct Haulage Logistics</h4>
+                                <p class="text-xs text-slate-400">Owned fleet of 15 tipper lorries providing dependable transport to regional sites.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-6">
+                    <div class="p-8 rounded-2xl bg-dark-900 border border-gold-500/20 shadow-2xl space-y-6">
+                        <h3 class="font-serif text-xl font-bold text-white border-b border-dark-700 pb-4 flex items-center">
+                            <i class="fa-solid fa-gears text-gold-500 mr-2.5"></i> Material Process Pipeline
+                        </h3>
+
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="p-4 rounded-xl bg-dark-800 border border-dark-700 text-center">
+                                <div class="text-gold-400 text-2xl font-bold mb-1"><i class="fa-solid fa-water"></i></div>
+                                <div class="text-xs font-bold text-white">1. River Dredging</div>
+                                <div class="text-[11px] text-slate-400 mt-1">3 Sets Sand Pumps</div>
+                            </div>
+                            <div class="p-4 rounded-xl bg-dark-800 border border-dark-700 text-center">
+                                <div class="text-gold-400 text-2xl font-bold mb-1"><i class="fa-solid fa-filter"></i></div>
+                                <div class="text-xs font-bold text-white">2. Washing & Sieve</div>
+                                <div class="text-[11px] text-slate-400 mt-1">Conveyor Screening</div>
+                            </div>
+                            <div class="p-4 rounded-xl bg-dark-800 border border-dark-700 text-center">
+                                <div class="text-gold-400 text-2xl font-bold mb-1"><i class="fa-solid fa-cubes"></i></div>
+                                <div class="text-xs font-bold text-white">3. Stockpile Mgmt</div>
+                                <div class="text-[11px] text-slate-400 mt-1">Quality Grading</div>
+                            </div>
+                            <div class="p-4 rounded-xl bg-dark-800 border border-dark-700 text-center">
+                                <div class="text-gold-400 text-2xl font-bold mb-1"><i class="fa-solid fa-truck"></i></div>
+                                <div class="text-xs font-bold text-white">4. Site Delivery</div>
+                                <div class="text-[11px] text-slate-400 mt-1">15 Tipper Lorries</div>
+                            </div>
+                        </div>
+
+                        <div class="p-4 rounded-lg bg-dark-800 border border-dark-700 flex justify-between items-center text-xs">
+                            <span class="text-slate-300 font-medium">Supply Enquiries:</span>
+                            <a href="#contact" class="text-gold-400 font-bold hover:underline">Request Material Specs & Quotation →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MACHINERY INVENTORY SECTION -->
+    <section id="machinery" class="py-24 bg-dark-900 border-b border-dark-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-gold-400 mb-2">Operational Machinery</h2>
+                <h3 class="font-serif text-3xl sm:text-4xl font-extrabold text-white">Owned Plant & Machinery Fleet</h3>
+                <p class="text-slate-400 text-sm mt-3">MAPLE 87 maintains owned heavy equipment resources supporting earthworks, site preparation, and logistics.</p>
+                <div class="w-20 h-1 bg-gold-gradient mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="p-5 rounded-xl bg-dark-800 border border-dark-700 flex items-center justify-between">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 rounded-lg bg-gold-500/10 border border-gold-500/20 flex items-center justify-center text-gold-400 text-xl">
+                            <i class="fa-solid fa-truck-monster"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-base">Heavy Excavators</h4>
+                            <span class="text-xs text-slate-400">Hitachi / Kobelco Fleet</span>
+                        </div>
+                    </div>
+                    <div class="text-2xl font-serif font-bold text-gold-400">20 <span class="text-xs text-slate-400 font-sans">Units</span></div>
+                </div>
+
+                <div class="p-5 rounded-xl bg-dark-800 border border-dark-700 flex items-center justify-between">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 rounded-lg bg-gold-500/10 border border-gold-500/20 flex items-center justify-center text-gold-400 text-xl">
+                            <i class="fa-solid fa-truck-moving"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-base">Heavy Tipper Lorries</h4>
+                            <span class="text-xs text-slate-400">Material Transport</span>
+                        </div>
+                    </div>
+                    <div class="text-2xl font-serif font-bold text-gold-400">15 <span class="text-xs text-slate-400 font-sans">Units</span></div>
+                </div>
+
+                <div class="p-5 rounded-xl bg-dark-800 border border-dark-700 flex items-center justify-between">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 rounded-lg bg-gold-500/10 border border-gold-500/20 flex items-center justify-center text-gold-400 text-xl">
+                            <i class="fa-solid fa-water"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-base">Sand Pump Systems</h4>
+                            <span class="text-xs text-slate-400">River Dredging Floating Rig</span>
+                        </div>
+                    </div>
+                    <div class="text-2xl font-serif font-bold text-gold-400">3 <span class="text-xs text-slate-400 font-sans">Sets</span></div>
+                </div>
+
+                <div class="p-5 rounded-xl bg-dark-800 border border-dark-700 flex items-center justify-between">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 rounded-lg bg-gold-500/10 border border-gold-500/20 flex items-center justify-center text-gold-400 text-xl">
+                            <i class="fa-solid fa-tractor"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-base">Bulldozers</h4>
+                            <span class="text-xs text-slate-400">Site Clearing & Formation</span>
+                        </div>
+                    </div>
+                    <div class="text-2xl font-serif font-bold text-gold-400">2 <span class="text-xs text-slate-400 font-sans">Units</span></div>
+                </div>
+
+                <div class="p-5 rounded-xl bg-dark-800 border border-dark-700 flex items-center justify-between">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 rounded-lg bg-gold-500/10 border border-gold-500/20 flex items-center justify-center text-gold-400 text-xl">
+                            <i class="fa-solid fa-compact-disc"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-base">Compactors / Rollers</h4>
+                            <span class="text-xs text-slate-400">Sub-base Compaction</span>
+                        </div>
+                    </div>
+                    <div class="text-2xl font-serif font-bold text-gold-400">2 <span class="text-xs text-slate-400 font-sans">Units</span></div>
+                </div>
+
+                <div class="p-5 rounded-xl bg-dark-800 border border-dark-700 flex items-center justify-between">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 rounded-lg bg-gold-500/10 border border-gold-500/20 flex items-center justify-center text-gold-400 text-xl">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-base">Backhoes & Loaders</h4>
+                            <span class="text-xs text-slate-400">CASE Utility Loaders</span>
+                        </div>
+                    </div>
+                    <div class="text-2xl font-serif font-bold text-gold-400">4 <span class="text-xs text-slate-400 font-sans">Units</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CREDENTIALS SECTION -->
+    <section id="credentials" class="py-24 bg-dark-800 border-b border-dark-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-gold-400 mb-2">Compliance</h2>
+                <h3 class="font-serif text-3xl sm:text-4xl font-extrabold text-white">Regulatory Licences & Certification</h3>
+                <p class="text-slate-400 text-sm mt-3">Full statutory compliance under Singapore Building and Construction Authority (BCA) and Malaysian CIDB statutory framework.</p>
+                <div class="w-20 h-1 bg-gold-gradient mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 rounded-xl bg-dark-900 border border-gold-500/30 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider">Singapore BCA</span>
+                            <i class="fa-solid fa-certificate text-gold-400 text-xl"></i>
+                        </div>
+                        <h4 class="font-serif text-xl font-bold text-white mb-2">General Builder Class 1</h4>
+                        <p class="text-xs font-mono text-gold-400/90 mb-4">Serial: C2403002 • BCA Singapore</p>
+                        <p class="text-slate-400 text-xs leading-relaxed">
+                            Authorized to undertake main building works of unlimited contract values in Singapore public and private sectors.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-dark-700 text-[11px] text-slate-400 font-mono">
+                        Valid: 02 Dec 2023 to 02 Dec 2026
+                    </div>
+                </div>
+
+                <div class="p-8 rounded-xl bg-dark-900 border border-gold-500/30 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider">Singapore BCA</span>
+                            <i class="fa-solid fa-shield-halved text-gold-400 text-xl"></i>
+                        </div>
+                        <h4 class="font-serif text-xl font-bold text-white mb-2">Specialist Builder</h4>
+                        <p class="text-xs font-mono text-gold-400/90 mb-4">Structural Steelwork Category</p>
+                        <p class="text-slate-400 text-xs leading-relaxed">
+                            Certified specialist capacity for high-specification structural steel erection, platforms, and complex fabrication.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-dark-700 text-[11px] text-slate-400 font-mono">
+                        Valid: 02 Dec 2023 to 02 Dec 2026
+                    </div>
+                </div>
+
+                <div class="p-8 rounded-xl bg-dark-900 border border-gold-500/30 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-bold text-blue-400 uppercase tracking-wider">Malaysia CIDB</span>
+                            <i class="fa-solid fa-award text-gold-400 text-xl"></i>
+                        </div>
+                        <h4 class="font-serif text-xl font-bold text-white mb-2">CIDB Grade G7 Status</h4>
+                        <p class="text-xs font-mono text-gold-400/90 mb-4">Maple87 Builders Sdn. Bhd.</p>
+                        <p class="text-slate-400 text-xs leading-relaxed">
+                            Highest registration tier under Construction Industry Development Board Malaysia allowing unlimited project tender values.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-dark-700 text-[11px] text-slate-400 font-mono">
+                        WSH Council bizSAFE Level 3 Certified
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER & CONTACT SECTION -->
+    <footer id="contact" class="bg-dark-900 text-slate-300 pt-20 pb-12 border-t border-gold-500/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 pb-16 border-b border-dark-700">
+                <div class="lg:col-span-5 space-y-6">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-dark-700 to-dark-800 border border-gold-500/50 flex items-center justify-center">
+                            <svg class="w-6 h-6 text-gold-500" viewBox="0 0 100 100" fill="currentColor">
+                                <rect x="15" y="30" width="10" height="50" rx="1"/>
+                                <rect x="30" y="20" width="10" height="60" rx="1"/>
+                                <rect x="45" y="35" width="10" height="45" rx="1"/>
+                                <rect x="60" y="15" width="10" height="65" rx="1"/>
+                                <rect x="75" y="10" width="10" height="70" rx="1"/>
+                                <path d="M 5 82 Q 50 68 95 82" stroke="currentColor" stroke-width="6" fill="none"/>
+                            </svg>
+                        </div>
+                        <span class="font-serif text-2xl font-bold gold-gradient-text">MAPLE 87</span>
+                    </div>
+
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        A dual-entity construction and engineering powerhouse providing integrated main contracting, civil engineering, specialist steel fabrication, and direct materials supply across Singapore and Malaysia.
+                    </p>
+
+                    <div class="grid sm:grid-cols-2 gap-6 pt-2">
+                        <div class="p-4 rounded-lg bg-dark-800 border border-dark-700">
+                            <div class="text-xs font-bold text-emerald-400 uppercase tracking-wider mb-2"><i class="fa-solid fa-location-dot mr-1"></i> Singapore Office</div>
+                            <div class="text-xs text-white font-semibold">Maple87 Pte. Ltd.</div>
+                            <p class="text-xs text-slate-400 mt-1 leading-normal">
+                                9 Tuas South Avenue 10,<br>#04-21, T99,<br>Singapore 637014
+                            </p>
+                        </div>
+
+                        <div class="p-4 rounded-lg bg-dark-800 border border-dark-700">
+                            <div class="text-xs font-bold text-blue-400 uppercase tracking-wider mb-2"><i class="fa-solid fa-location-dot mr-1"></i> Malaysia Office</div>
+                            <div class="text-xs text-white font-semibold">Maple87 Builders Sdn. Bhd.</div>
+                            <p class="text-xs text-slate-400 mt-1 leading-normal">
+                                16, Jalan Jingga 2,<br>Taman Pelangi,<br>81100 Johor Bahru, Johor
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7">
+                    <div class="p-8 rounded-2xl bg-dark-800 border border-dark-700 relative">
+                        <h3 class="font-serif text-2xl font-bold text-white mb-2">Send Engineering Project Enquiry</h3>
+                        <p class="text-xs text-slate-400 mb-6">Complete the form below to reach our regional project procurement teams in Singapore & Malaysia.</p>
+
+                        <form id="contact-form" onsubmit="handleFormSubmit(event)" class="space-y-4">
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-medium text-slate-300 mb-1">Your Full Name *</label>
+                                    <input type="text" required placeholder="e.g. David Tan" class="w-full px-4 py-2.5 rounded bg-dark-900 border border-dark-600 text-white text-sm focus:outline-none focus:border-gold-500">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-medium text-slate-300 mb-1">Corporate Email *</label>
+                                    <input type="email" required placeholder="name@company.com" class="w-full px-4 py-2.5 rounded bg-dark-900 border border-dark-600 text-white text-sm focus:outline-none focus:border-gold-500">
+                                </div>
+                            </div>
+
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-medium text-slate-300 mb-1">Target Location *</label>
+                                    <select class="w-full px-4 py-2.5 rounded bg-dark-900 border border-dark-600 text-white text-sm focus:outline-none focus:border-gold-500">
+                                        <option>Singapore Operations (Maple87 Pte. Ltd.)</option>
+                                        <option>Malaysia Operations (Maple87 Builders Sdn. Bhd.)</option>
+                                        <option>Cross-Border / Sand Supply</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-medium text-slate-300 mb-1">Service Required *</label>
+                                    <select class="w-full px-4 py-2.5 rounded bg-dark-900 border border-dark-600 text-white text-sm focus:outline-none focus:border-gold-500">
+                                        <option>Main Contracting / Building Works</option>
+                                        <option>Specialist Metalwork & Structural Steel</option>
+                                        <option>Civil Infrastructure & Precast Works</option>
+                                        <option>Architectural Wet Works & Reinstatement</option>
+                                        <option>Malaysian Sand Mining & Material Supply</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-medium text-slate-300 mb-1">Project Details & Scope *</label>
+                                <textarea rows="3" required placeholder="Describe your construction tender or material supply requirements..." class="w-full px-4 py-2.5 rounded bg-dark-900 border border-dark-600 text-white text-sm focus:outline-none focus:border-gold-500"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full py-3 rounded-md font-semibold text-dark-900 bg-gold-gradient hover:brightness-110 transition-all shadow-md shadow-gold-500/20 text-sm">
+                                Submit Project Enquiry
+                            </button>
+                        </form>
+
+                        <div id="form-success" class="hidden mt-4 p-4 rounded bg-emerald-500/20 border border-emerald-500/40 text-emerald-300 text-xs text-center">
+                            <i class="fa-solid fa-circle-check mr-2"></i> Thank you. Your enquiry has been routed to <strong>info@maple87.asia</strong>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 flex flex-col md:flex-row items-center justify-between text-xs text-slate-500">
+                <div>
+                    © <span id="year">2026</span> MAPLE 87 Group. All rights reserved. Maple87 Pte. Ltd. & Maple87 Builders Sdn. Bhd.
+                </div>
+                <div class="mt-4 md:mt-0 flex space-x-6">
+                    <a href="http://www.maple87.asia" target="_blank" class="hover:text-gold-400">www.maple87.asia</a>
+                    <span>|</span>
+                    <a href="mailto:info@maple87.asia" class="hover:text-gold-400">info@maple87.asia</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL FOR PROJECT DETAIL VIEW -->
+    <div id="project-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
+        <div class="bg-dark-800 border border-gold-500/30 rounded-2xl max-w-2xl w-full p-6 sm:p-8 relative max-h-[90vh] overflow-y-auto">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white text-xl">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        document.getElementById('year').innerText = new Date().getFullYear();
+
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => {
+                    b.classList.remove('bg-gold-500', 'text-dark-900');
+                    b.classList.add('bg-dark-800', 'text-slate-300');
+                });
+                btn.classList.remove('bg-dark-800', 'text-slate-300');
+                btn.classList.add('bg-gold-500', 'text-dark-900');
+
+                const filter = btn.getAttribute('data-filter');
+
+                projectCards.forEach(card => {
+                    if (filter === 'all' || card.classList.contains(filter)) {
+                        card.style.display = 'flex';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        const projectDetails = {
+            whc: {
+                title: "Woodlands Health Campus",
+                subtitle: "Specialist Metalworks & Architectural Wet Works Package",
+                location: "Woodlands Drive 17 / Avenue 12, Singapore",
+                client: "Ministry of Health (MOH 46/2016)",
+                entity: "Maple87 Pte. Ltd.",
+                value: "Approximately S$10.0 Million",
+                desc: "Woodlands Health Campus is an integrated healthcare facility comprising acute hospital services, specialist outpatient clinics, community hospital, and nursing home facilities. MAPLE 87 delivered approximately S$10M in specialist architectural metalworks, elevated walkways, structural steel supports, and internal wet works under stringent medical quality controls."
+            },
+            facebook: {
+                title: "Facebook Data Centre Facility",
+                subtitle: "Specialist Galvanised Steel Access Flooring & Maintenance Platforms",
+                location: "Singapore Industrial Data Centre Hub",
+                client: "High-Tech Data Centre Operator",
+                entity: "Maple87 Pte. Ltd.",
+                value: "200+ Grating & Platform Sets",
+                desc: "Manufactured and erected over 200 heavy-duty galvanised steel access flooring modules and elevated maintenance platforms. Project required tight installation tolerances directly over sensitive mechanical and electrical service corridors."
+            },
+            dleedon: {
+                title: "d'Leedon Condominium (Farrer Road)",
+                subtitle: "Structural Construction Works & Multi-Tower Coordination",
+                location: "Farrer Road, Singapore",
+                client: "Morganite Pte Ltd / Zaha Hadid Architects",
+                entity: "Maple87 Pte. Ltd.",
+                value: "1,715 Apartment Units & 12 Villas Scope",
+                desc: "Participated in structural execution and package coordination for d'Leedon—a iconic 7-tower (36 storeys) residential project designed by Zaha Hadid Architects. Scope included structural concrete work sequences and site trade management."
+            },
+            treasures: {
+                title: "Treasures 20 & Treasures 6",
+                subtitle: "Private Condominium Developments - Main Contractor",
+                location: "Geylang Lorong 20 & Lorong 6, Singapore",
+                client: "Private Residential Developer",
+                entity: "Maple87 Pte. Ltd.",
+                value: "Combined Value Approx. S$20.0 Million",
+                desc: "Served as Main Contractor for two 8-storey luxury residential developments. Delivered complete building works, automated mechanical car parking systems, rooftop swimming pools, structural framework, and architectural finishes."
+            },
+            prima: {
+                title: "PR1MA Housing Development",
+                subtitle: "1,013 Double-Story Units Total Subcontractor",
+                location: "Bandar Ekar Rantau, Negeri Sembilan, Malaysia",
+                client: "Perbadanan PR1MA Malaysia",
+                entity: "Maple87 Builders Sdn. Bhd.",
+                value: "1,013 Landed Units Scope",
+                desc: "Total Subcontractor responsible for multi-trade execution across 1,013 double-storey residential houses. Package covered internal and external plastering, structural waterproofing, staircase finishes, and mechanical & electrical coordination."
+            },
+            sijangkang: {
+                title: "Taman Sijangkang Jaya",
+                subtitle: "Darul Mujahidin Resettlement Housing Project",
+                location: "Kuala Langat, Selangor, Malaysia",
+                client: "PKNS (Perbadanan Kemajuan Negeri Selangor)",
+                entity: "Maple87 Builders Sdn. Bhd.",
+                value: "Reported RM48.5 Million Project Value",
+                desc: "Main Subcontractor for the construction of 2-storey terrace houses and associated civil infrastructure. Managed manpower allocation, raw material procurement, and quality assurance for Selangor state housing board."
+            },
+            lanchang: {
+                title: "Lanchang Housing Development",
+                subtitle: "350 Single-Storey Terrace Houses & Infrastructure",
+                location: "Lanchang, Temerloh, Pahang, Malaysia",
+                client: "Ministry of Housing and Local Government",
+                entity: "Maple87 Builders Sdn. Bhd.",
+                value: "RM96.0 Million Overall Scope",
+                desc: "Total Subcontractor for 350-unit terrace housing scheme under Rumah Malaysia. Included earthworks, main access roads, drainage systems, precast concrete structures, and complete internal finishes."
+            },
+            reinstatement: {
+                title: "SLA & JTC Commercial Reinstatements",
+                subtitle: "300 Bukit Ho Swee & Redhill Industrial Estate",
+                location: "Singapore Land Authority / JTC Premises",
+                client: "Equation Corp & DiSa Limited Tenancies",
+                entity: "Maple87 Pte. Ltd.",
+                value: "30,000 sq ft Handover Area",
+                desc: "Full whole-building reinstatement of a 20,000 sq ft commercial building at 300 Jalan Bukit Ho Swee for SLA handover, alongside 10,000 sq ft industrial premises at 1001 Jalan Bukit Merah for JTC Corporation inspection."
+            },
+            lng: {
+                title: "Tuas LNG Offtake Station",
+                subtitle: "Foundation & Structural Infrastructure Package",
+                location: "Tuas South Avenue / Jalan Bahar, Singapore",
+                client: "SP Power Group / Consen International",
+                entity: "Maple87 Pte. Ltd.",
+                value: "S$4.5 Million Structural Scope",
+                desc: "Foundation construction, ground piling cap interfaces, and heavy structural works for liquefied natural gas energy facility under SP Power Group."
+            }
+        };
+
+        function openModal(key) {
+            const item = projectDetails[key];
+            if(!item) return;
+
+            const modalContent = document.getElementById('modal-content');
+            modalContent.innerHTML = `
+                <div class="inline-block px-3 py-1 rounded bg-gold-500/10 text-gold-400 text-xs font-bold uppercase tracking-wider mb-3">Project Reference Sheet</div>
+                <h3 class="font-serif text-2xl font-bold text-white mb-1">${item.title}</h3>
+                <div class="text-sm text-gold-400 font-semibold mb-4">${item.subtitle}</div>
+
+                <div class="grid sm:grid-cols-2 gap-3 p-4 rounded-xl bg-dark-900 border border-dark-700 text-xs mb-6">
+                    <div><span class="text-slate-400">Location:</span> <strong class="text-slate-200">${item.location}</strong></div>
+                    <div><span class="text-slate-400">Contracting Entity:</span> <strong class="text-slate-200">${item.entity}</strong></div>
+                    <div><span class="text-slate-400">Client / Authority:</span> <strong class="text-slate-200">${item.client}</strong></div>
+                    <div><span class="text-slate-400">Package Value:</span> <strong class="text-gold-400 font-mono">${item.value}</strong></div>
+                </div>
+
+                <p class="text-slate-300 text-sm leading-relaxed mb-6">${item.desc}</p>
+
+                <div class="pt-4 border-t border-dark-700 flex justify-end">
+                    <button onclick="closeModal()" class="px-5 py-2 rounded bg-dark-700 hover:bg-dark-600 text-white text-xs font-bold">Close Sheet</button>
+                </div>
+            `;
+            document.getElementById('project-modal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('project-modal').classList.add('hidden');
+        }
+
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            document.getElementById('contact-form').classList.add('hidden');
+            document.getElementById('form-success').classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
